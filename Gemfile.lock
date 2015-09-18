@@ -223,7 +223,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (~> 2.0)
+  bootstrap-sass (= 2.3.2.2)
   coffee-rails
   coveralls
   haml
@@ -233,7 +233,7 @@ DEPENDENCIES
   rails (~> 4.2.4)
   rails_12factor
   rubocop
-  sass-rails (>= 4.0.3)
+  sass-rails
   sdoc
   simplecov
   spring

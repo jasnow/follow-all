@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 gem 'rails',          '~> 4.2.4'
-gem 'bootstrap-sass', '~> 2.0'
+gem 'bootstrap-sass', '2.3.2.2'
 gem 'haml'
 gem 'omniauth'
 gem 'omniauth-twitter'
@@ -11,7 +11,7 @@ gem 'twitter'
 
 group :assets do
   gem 'coffee-rails'
-  gem 'sass-rails', '>= 4.0.3'
+  gem 'sass-rails'
   gem 'uglifier'
 end
 
