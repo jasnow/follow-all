@@ -52,7 +52,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.1.1)
-    coveralls (0.8.2)
+    coveralls (0.8.3)
       json (~> 1.8)
       rest-client (>= 1.6.8, < 2)
       simplecov (~> 0.10.0)
@@ -73,7 +73,7 @@ GEM
     haml (4.0.7)
       tilt
     hashie (3.4.2)
-    http (0.9.7)
+    http (0.9.8)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
       http-form_data (~> 1.0.1)
