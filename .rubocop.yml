@@ -7,9 +7,6 @@ AllCops:
 Metrics/BlockNesting:
   Max: 2
 
-Rails:
-  Enabled: true
-
 Metrics/LineLength:
   AllowURI: true
   Enabled: false
@@ -45,6 +42,3 @@ Style/DoubleNegation:
 
 Style/SpaceInsideHashLiteralBraces:
   EnforcedStyle: no_space
-
-Style/TrailingCommaInLiteral:
-  EnforcedStyleForMultiline: 'comma'
