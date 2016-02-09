@@ -9,8 +9,6 @@ gem 'omniauth-twitter'
 gem 'rails_12factor'
 gem 'twitter'
 
-gem 'parser', '2.3.0.pre.6' # WORK-AROUND for Ruby 2.2.4
-
 group :assets do
   gem 'coffee-rails'
   gem 'sass-rails'
