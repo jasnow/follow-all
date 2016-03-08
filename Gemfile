@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
 
-gem 'rails',          '4.2.6.rc1'
+gem 'rails',          '4.2.6'
 gem 'bootstrap-sass', '2.3.2.2'
 gem 'haml'
 gem 'omniauth'
