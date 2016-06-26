@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 Rails.application.config.middleware.use OmniAuth::Builder do
   if ENV['CONSUMER_KEY'].blank? || ENV['CONSUMER_SECRET'].blank?
     warn '*' * 80

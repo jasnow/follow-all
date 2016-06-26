@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'twitter'
 require 'logger'
 logger = Logger.new(STDOUT)

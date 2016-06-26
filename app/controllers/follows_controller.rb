@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class FollowsController < ApplicationController
   before_action :ensure_authenticated
 
