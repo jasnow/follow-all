@@ -32,11 +32,11 @@ class FollowsControllerTest < ActionController::TestCase
     assert_select 'title', 'Follow All'
     assert_select 'ul.thumbnails li', count: 20
     assert_select 'form' do
-#FIXME:      assert_select '[action=?]', '/follows'
-#FIXME:      assert_select '[method=?]', 'post'
+      # FIXME:      assert_select '[action=?]', '/follows'
+      # FIXME:      assert_select '[method=?]', 'post'
     end
     assert_select 'select[name="list"]' do
-#FIXME:      assert_select '[value=?]', 'codeforamerica/team'
+      # FIXME:      assert_select '[value=?]', 'codeforamerica/team'
     end
     assert_select 'button', 'Follow all members of this list!'
   end

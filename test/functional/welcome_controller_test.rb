@@ -7,8 +7,8 @@ class WelcomeControllerTest < ActionController::TestCase
     assert_response :success
     assert_select 'title', 'Follow All'
     assert_select 'form' do
-#FIXME:      assert_select '[action=?]', '/auth/twitter'
-#FIXME:      assert_select '[method=?]', 'get'
+      # FIXME:      assert_select '[action=?]', '/auth/twitter'
+      # FIXME:      assert_select '[method=?]', 'get'
     end
     assert_select 'button', 'Sign in with Twitter'
   end
