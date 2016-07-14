@@ -220,7 +220,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass (= 2.3.2.2)
+  bootstrap-sass (~> 2.0)
   coffee-rails
   coveralls
   haml
@@ -228,7 +228,7 @@ DEPENDENCIES
   omniauth
   omniauth-twitter
   puma
-  rails (= 4.2.7)
+  rails (~> 4.2.7)
   rails_12factor
   rubocop
   sass-rails
