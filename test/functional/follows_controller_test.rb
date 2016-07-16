@@ -24,6 +24,7 @@ class FollowsControllerTest < ActionController::TestCase
       to_return(body: File.read(File.expand_path('../../fixtures/user.json', __FILE__)))
     stub_request(:get, 'https://api.twitter.com/1.1/account/verify_credentials.json').
       to_return(body: File.read(File.expand_path('../../fixtures/user.json', __FILE__)))
+    #post :create, params: { list: 'codeforamerica/team' }
     post :create, list: 'codeforamerica/team'
     assert_not_nil assigns :user
     assert_not_nil assigns :new_friends
@@ -42,6 +43,7 @@ class FollowsControllerTest < ActionController::TestCase
   end
 
   test 'should redirect to failure path when unauthenticated' do
+    #post :create, params: { list: 'codeforamerica/team' }
     post :create, list: 'codeforamerica/team'
     assert_redirected_to failure_path
   end
